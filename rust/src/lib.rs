@@ -5,7 +5,6 @@ use reqwest::Client;
 use image::{ImageFormat, ImageOutputFormat, io::Reader as ImageReader};
 use std::io::Cursor;
 use base64::encode;
-use serde_wasm_bindgen::Serializer;
 
 
 #[wasm_bindgen]
