@@ -23,8 +23,11 @@ This repository demonstrates how to integrate Rust and Node.js using WebAssembly
    wasm-pack build --target nodejs 
    ```
 
-3. Copy the pkg directory to the nodejs directory.
+3. Copy the pkg directory to the node directory.
 
+    ```bash
+    cp -r pkg ../node/
+    ```
 
 ### Node
 
@@ -40,7 +43,7 @@ This repository demonstrates how to integrate Rust and Node.js using WebAssembly
    npm install 
    ```
 
-2. Run the Node.js script:
+3. Run the Node.js script:
 
     ```bash
    ts-node ./index.ts
